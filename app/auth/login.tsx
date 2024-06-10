@@ -29,7 +29,7 @@ export default function LoginScreen() {
       return;
     }
 
-    router.replace('/tareas/inicio');
+    router.replace('/Tareas/inicio');
   };
 
   return (

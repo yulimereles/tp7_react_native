@@ -10,7 +10,7 @@ export default function InicioScreen() {
   const navigation = useRouter();
 
   const handleGetStarted = () => {
-    navigation.push('/listaTareas'); 
+    navigation.push('/lista'); 
   };
   const handleGetOut = () => {
     navigation.push('/'); 
@@ -32,7 +32,7 @@ export default function InicioScreen() {
             Iniciar ☑️
           </Button>
           <Button mode="contained" onPress={handleGetOut} style={styles.button}>
-            Salir✖️
+            Volver al inicio✖️
           </Button>
         </View>
       </View>
