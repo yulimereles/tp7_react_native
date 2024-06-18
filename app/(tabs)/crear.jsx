@@ -28,8 +28,8 @@ const CrearTarea = () => {
             style={styles.inputText}
             keyboardType="numeric"
         />
-        <Button mode="contained" onPress={() => {}}>
-            Agregar Tarea
+        <Button style={styles.button} mode="contained" onPress={() => {}}>
+            Crear
         </Button>
     </View>
   );

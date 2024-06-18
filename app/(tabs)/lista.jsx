@@ -6,33 +6,34 @@ import styles from '../styles/lista'
 const ListaTareasScreen = () => {
   const [tasks, setTasks] = useState([
     {
-      "title": "Comprar víveres",
-      "description": "Comprar frutas, verduras y otros productos para la semana.",
-      "author": "Juan Pérez",
-      "date": "2024-06-01"
+      "title": "Limpiar la casa",
+      "description": "Hacer una limpieza profunda en toda la casa.",
+      "author": "Mereles Juliana",
+      "date": "2024-06-18"
     },
     {
-      "title": "Reunión con el equipo",
-      "description": "Reunión semanal para revisar el progreso de los proyectos.",
-      "author": "Ana García",
-      "date": "2024-06-02"
+      "title": "Presentación del proyecto",
+      "description": "Preparar y presentar el proyecto final en la reunión de equipo.",
+      "author": "Mereles Juliana",
+      "date": "2024-06-20"
     },
     {
-      "title": "Actualizar el sitio web",
-      "description": "Agregar nuevas funcionalidades y corregir errores en el sitio web.",
-      "author": "Luis Martínez",
-      "date": "2024-06-03"
+      "title": "Visita al médico",
+      "description": "Chequeo médico anual con el Dr. Rodríguez.",
+      "author": "Mereles Juliana",
+      "date": "2024-06-24"
     },
     {
-      "title": "Enviar reporte mensual",
-      "description": "Preparar y enviar el reporte mensual de ventas y operaciones.",
-      "author": "María Rodríguez",
+      
+      "title": "Enviar invitaciones de boda",
+      "description": "Enviar las invitaciones para la boda a todos los invitados.",
+      "author": "Miguel Sánchez",
       "date": "2024-06-04"
     },
     {
-      "title": "Curso de capacitación",
-      "description": "Asistir al curso de capacitación sobre nuevas tecnologías.",
-      "author": "Carlos Fernández",
+      "title": "Instalación de software",
+      "description": "Instalar y configurar el nuevo software en las computadoras de la oficina.",
+      "author": "Mereles Juliana",
       "date": "2024-06-05"
     }
   ]);
@@ -51,7 +52,7 @@ const ListaTareasScreen = () => {
 
   return (
     <View style={styles.container}>
-        <View>Lista de Tareas</View>
+        <View style={styles.title}>Lista de Tareas</View>
       <FlatList
         data={tasks}
         renderItem={renderItem}

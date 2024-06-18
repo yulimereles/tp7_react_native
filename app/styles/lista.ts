@@ -4,10 +4,14 @@ import { StyleSheet } from 'react-native';
     container: {
       flex: 1,
       padding: 10,
-      backgroundColor: '#fff',
+      backgroundColor: 'purple',
     },
     card: {
-      marginVertical: 8,
+      marginVertical: 8, 
+      backgroundColor: '#c6b1c9',
     },
+    title:{
+      color: '#c6b1c9',
+    }
   });
 export default styles;

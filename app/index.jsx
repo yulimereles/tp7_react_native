@@ -1,6 +1,6 @@
 
-import { Link} from 'expo-router';
-import React from 'react';
+import { Link } from 'expo-router';
+import * as React from 'react';
 import { View, Text, Image } from 'react-native';
 import { styles } from './styles/index';
 
@@ -37,7 +37,7 @@ export default function IndexScreen() {
           </View>
         </View>
       </View>
-      </>
+    </>
   );
 }
 

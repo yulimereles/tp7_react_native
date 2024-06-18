@@ -4,7 +4,7 @@ import { StyleSheet } from 'react-native';
     container: {
       flex: 1,
       padding: 20,
-      backgroundColor: '#fff',
+      backgroundColor: '#c6b1c9',
       justifyContent: "center",
     },
     inputText: {
@@ -13,5 +13,8 @@ import { StyleSheet } from 'react-native';
     textarea: {
       height: 100,
     },
+    button: {
+      backgroundColor:'purple',
+    }
   });
   export default styles;
